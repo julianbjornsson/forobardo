@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+    flask:
+        build: .
+            #context: .
+            #dockerfile: Dockerfile
+        volumes: 
+            - 'C:\Users\Julian Bjornsson\Forobardo\flaskblog\db:/user/src/app/flaskblog/db'

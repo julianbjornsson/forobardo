@@ -11,7 +11,7 @@ import os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'b0f1d41b685a2748b30c4913528d2f56'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/site.db'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)

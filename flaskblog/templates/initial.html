@@ -1,18 +1,24 @@
 {% extends 'layout.html' %}
 {% block content %}
     <h2> Bienvenide aliade! </h2>
-    <p>Forobardo es un foro como cualquier otro, pero con fines de aprendizaje y seguramente bastante limitado en su funcionalidad (que clase de foro no te deja modificar el texto para postearlo)</p>
+    <p>Forobardo es un foro como cualquier otro, pero con fines de aprendizaje y seguramente bastante limitado en su funcionalidad 
+    (literalmente no hubo forma de que me salga bien configurar un WYSIWYG)</p>
     <br>
     <h3>Ya que llegaste hasta aca...</h3>
-    <p>...de la forma que sea (seguramente porque te lo pedi para que me hagan el testing gratis, y si no fue asi y llegaste por tus propios medios me da pena lo al pedo que estas), espero encuentres la pagina agradable y que me reporten cualquier error o gilada que encuentres (al mail que en algun momento voy a dejar aca mismo)</p>
+    <p>...de la forma que sea (seguramente porque te lo pedi para que me hagan el testing gratis o algo asi, 
+    y si no fue asi y llegaste por tus propios medios, realmente es intrigante saber como paso), 
+    espero encuentres todo agradable y que me reporten cualquier error o gilada que encuentres 
+    (al mail que en algun momento voy a dejar aca mismo)</p>
     <br>
     <h3> De todas formas... </h3>
-    <p>...sos bienvenido/a de unirte y compartir anecdotas o lo que quieras (la realidad es que no hay reglas aun, y dudo que las haya en algun momento porque no espero que esto sea popular), o simplemente leer las idioteces que se postean (probablemente yo o mis amigos)</p>
+    <p>...sos bienvenido/a de unirte y compartir anecdotas o lo que quieras (la realidad es que no hay reglas y no parece que vaya a haber otro 
+    usuario que no sea yo) o bien leer las cosas que yo postee (if any)</p>
     <br>
     <h3>Peeeero pero pero...</h3>
     <p>...para hacerlo vas a necesitar una cuenta, lo que nos lleva a la pregunta que intento hacer desde el principio...</p>
     <br>
     <h3>¿Ya tenes una cuenta?</h3>
     <p>Si ya la tenes, <a href="{{ url_for('login') }}">ingresa haciendo click aca o en el boton de la barra de navegacion</a></p>
-    <p>Si por el contrario todavia no estas registrado, <a href="{{ url_for('register') }}">hace click aca</a>, create una cuenta y empeza a putear a los gansos que se registran</p>
+    <p>Si por el contrario todavia no estas registrado, <a href="{{ url_for('register') }}">hace click aca</a>, create una cuenta y 
+    si por alguna de esas casualidades conoces al amor de tu vida aca y tienen hijos, Julian es lindo nombre (dice mi vieja)</p>
 {% endblock content %}
